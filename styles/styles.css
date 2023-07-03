@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto',
+            sans-serif;
+    color: #2E2F42;
+}
+
+.header {
+    border: 3px solid black;
+    background-color: aqua;
+}
+
+.header-wrap {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    /* background-size: auto;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: auto;
+    background-image: url(../images/cherch_fon.jpg);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center; */
+    border: 3px solid red;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.test {
+    background-color: bisque;
+    border: 2px solid blue;
+}
+
+.plans-for-the-future {
+    background-color: olivedrab;
+    border: 2px solid orange;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(229, 229, 121);
+    border: 3px solid red;
+}
